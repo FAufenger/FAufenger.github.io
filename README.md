@@ -1,5 +1,5 @@
-# Web-Design-Challenge
+# FAufenger.github.io
+Create a GitHub Pages link
 
-Start at the index.html site 
-<br/>
-While each page conects to each other, this is the best way to start!!
+Click the link below to go to the off site rendering of the .html<br/>
+
