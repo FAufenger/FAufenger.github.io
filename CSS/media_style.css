@@ -1,0 +1,27 @@
+@media (min-width: 0px) and (max-width: 600px) {
+ 
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: #fafafa
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+  .navbar li {
+    padding: 10px;
+  }
+}
