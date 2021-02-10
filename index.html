@@ -10,11 +10,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/main_style.css">
   <link rel="stylesheet" href="./CSS/media_style.css">
-
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg bg-light navbar-light">
       <div class="container-fluid">
       <!-- Brand -->
@@ -57,7 +55,7 @@
 
   <div class="container">
     <header class="header">
-      <h1 class = "text-center">Lets Explore the Weather!!</h1>
+      <h1 class = "text-center">Lets Explore the Weather</h1>
     </header>
   </div>  
 
@@ -66,9 +64,10 @@
      <div class="col-md-12">
         <div class="thumbnail_header">
           <div class = "text-center">
-          <h3> Here you will find analysis from the investigation of how weather varies at different 
-            <a href="./linked_html/linked_html.html" role="button">latitudes.</a> 
-          </h3>
+            <h3> Here you will find analysis from the investigation of how weather varies at different 
+              <a target="_blank" href="./linked_html/linked_html.html" role="button" style="color:rgb(32, 110, 122)">latitudes</a> 
+                around the world.
+            </h3>
           </div>
         </div>
       </div>  
@@ -114,14 +113,30 @@
       <div class="col-md-9">
         <div class="text-center">
           <h3>Now that my kind of weather!</h3>
+          <br>
         </div>
-        <div class="text-center">
+        <div class="justified">
           <p>
             Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. 
-            So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: 
+            So let's use Python requests, APIs, and JSON traversals to answer a fundamental question: 
             "What's the weather like as we approach the equator?"
             Now, we know what you may be thinking: "Duh. It gets hotter..."
             But, if pressed, how would you prove it?
+            <br>
+            <br>
+            <br>
+              <div class="text-center">
+                <img src="./Resources/assets_images/world.png" alt="..." class="img-thumbnail"> 
+              </div>
+            <br>
+            <br>
+            <br>
+            These questions bring us to compile data on Couldiness, Humidity, Maximum Temperature
+            and Wind Speeds for various cities across the world at differeing latitudes.
+            Looking at the strength of correlation to uncover if there is underlying connection to 
+            general weather trends. If you would like to know more on how that data was analyized and 
+            collected please visit the data page link on the navigation bar.
+
           </p>
         </div>
       </div>
@@ -132,13 +147,14 @@
     <div class="container">
       <section class="posts">
         <article class="post">
-          <div class="text-center">
+          <div class="text-left">
             <h3>Weather Weather Weather</h3>
-            <p>An explanation of the project.
+            <p>This page contains:
+              An explanation of the project.
+              <br>
               Links to each visualizations page.
               <br/>
-              <br/>
-              There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+              A sidebar containing preview images of each plot, and clicking an image will take the user to that visualization.
             </p>
           </div>
         </article>
