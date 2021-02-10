@@ -28,6 +28,7 @@
   .navbar div {
     margin: inherit;
     background-color: #cdd8da;
+  }
   .navbar-brand {
     padding: 10px;
     background-color: #d44242;
@@ -43,3 +44,4 @@
     outline: 1px dotted;
     outline: auto 5px;
   }
+}

@@ -53,12 +53,13 @@ h4 {
     padding-top: 20px;
     background: rgb(32, 110, 122);
   }
-.thumbnail_header {
+
+  .thumbnail_header {
   
   padding-top: 20px;
   background: #fafafa;
 
-}
+  }
 .thumbnail_header h3 {
     padding: 20px;
     margin: 0;
@@ -140,11 +141,7 @@ h4 {
 
   .bg-dark {
     background-color: #d6dadd;
-    @include media-breakpoint-up(md) {
-        background-color: transparent;
-    }
-
-
+    
 
 a {
     color: rgb(32, 110, 122);
