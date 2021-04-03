@@ -75,8 +75,8 @@ table.d {
   color: #eee;
   stroke: #333;
   text-shadow: 2px 2px 0px rgb(97, 67, 67);
-  background: #333;
-  /* background-image: url(./images/pinkTree.png);  */
+  /* background: #333; */
+  background-image: url(./images/pinkTree.png); 
 }
 
 #contact-info {
