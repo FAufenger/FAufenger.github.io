@@ -15,6 +15,20 @@ header {
   /* background-image: url(./images/pinkTree.png);  */
 
 }
+
+.parent {
+  text-align: center;
+}
+
+/* .parent > ul {
+  display: inline-block;
+} */
+
+.parent > ul {
+  list-style-position: inside;
+  /* list-style-type: none; */
+}
+
 /* 
 #canvas-basic {
   position: absolute;
